@@ -1,0 +1,21 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/giang98/linorobot_ws/devel/include",
+        "/home/giang98/robot_ws/devel/include",
+        "/home/giang98/catkin_ws/devel/include",
+        "/opt/ros/melodic/include",
+        "/home/giang98/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include",
+        "/home/giang98/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include",
+        "/home/giang98/catkin_ws/src/turtlebot3/turtlebot3_slam/include",
+        "/usr/include"
+      ],
+      "name": "Linux"
+    }
+  ]
+}

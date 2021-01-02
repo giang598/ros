@@ -1,0 +1,32 @@
+TrajectoryPlannerROS:
+
+# Robot Configuration Parameters
+  max_vel_x: 0.18
+  min_vel_x: 0.08
+
+  max_vel_theta:  1.0
+  min_vel_theta: -1.0
+  min_in_place_vel_theta: 1.0 # vận tốc quay tại chỗ
+
+  acc_lim_x: 1.0  #gia tốc thẳng cực đại
+  acc_lim_y: 0.0
+  acc_lim_theta: 0.6
+
+# Goal Tolerance Parameters
+  xy_goal_tolerance: 0.10  
+  yaw_goal_tolerance: 0.05  #sai số vị trí đích ;góc 
+
+# Differential-drive robot configuration
+  holonomic_robot: false  #robot đa hướng
+
+# Forward Simulation Parameters
+  sim_time: 0.8
+  vx_samples: 18
+  vtheta_samples: 20
+  sim_granularity: 0.05
+# tầm quan trọng
+#  pdist_scale: 0.8 gắn với đường đi toàn cầu thay vi mục tiêu > gdist_scale
+#gdist_scale : 0.4 mục tiêu >đường đi
+# oocdist_scale: 0.1 tránh vat cản 
+# sim_time : 1.0 thời gian nhìn trước của lạp kế hoạch
+# dwa:true
